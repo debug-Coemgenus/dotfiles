@@ -1,0 +1,11 @@
+# FUNCTIONS
+parse_git_branch() {
+  git branch --show-current 2>/dev/null | sed 's/.*/(&)/'
+}
+
+# ENV
+export PS1='\[\e[1;32m\]\u@\h\[\e[0m\]:\[\e[1;34m\]\w\[\e[1;33m\]$(parse_git_branch)\[\e[0m\]\$ '
+export PATH="$HOME/Programs/exe:$PATH"
+
+# ALIAS
+alias lg='lazygit'

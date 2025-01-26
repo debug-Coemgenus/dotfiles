@@ -1,0 +1,15 @@
+{
+    "target": "c_build",
+    "selector": "source.c",
+    "cancel": {"kill": true},
+    "variants": [
+        {
+            "name": "Build Only",
+            "run_target": false
+        },
+        {
+            "name": "Debug Build",
+            "debug": true
+        }
+    ]
+}

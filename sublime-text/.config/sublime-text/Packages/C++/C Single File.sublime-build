@@ -1,0 +1,4 @@
+{
+    "selector": "source.c.__disabled__",
+    "shell_cmd": "true"
+}

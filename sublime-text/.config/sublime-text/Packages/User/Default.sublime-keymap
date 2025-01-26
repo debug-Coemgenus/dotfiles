@@ -1,0 +1,5 @@
+[
+    { "keys": ["ctrl+b"], "command": "c_build", "context": [{"key": "selector", "operator": "equal", "operand": "source.c"}] },
+    { "keys": ["ctrl+shift+b"], "command": "c_build", "args": {"debug": true}, "context": [{"key": "selector", "operator": "equal", "operand": "source.c"}] },
+    { "keys": ["ctrl+alt+b"], "command": "c_build", "args": {"run_target": false}, "context": [{"key": "selector", "operator": "equal", "operand": "source.c"}] }
+]
