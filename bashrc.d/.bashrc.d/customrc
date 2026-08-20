@@ -10,3 +10,13 @@ export EDITOR=kak
 
 # ALIAS
 alias lg='lazygit'
+
+# ls replacement
+alias ls='eza --icons=auto --group-directories-first'
+alias ll='eza -lh --icons=auto --group-directories-first'
+alias la='eza -a --icons=auto --group-directories-first'
+alias lla='eza -lah --icons=auto --group-directories-first'
+alias lt='eza --tree --level=2 --icons=auto'
+alias lt3='eza --tree --level=3 --icons=auto'
+alias lm='eza -lh --icons=auto --sort=modified'
+alias lsize='eza -lh --icons=auto --sort=size'
